@@ -1,1 +1,1 @@
-web: gunicorn bug_tracker_api.wsgi
+web: gunicorn bug_tracker_api.wsgi --log-file -
